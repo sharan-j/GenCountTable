@@ -4,7 +4,7 @@
 This code generates a count table of single base substitutions from a .bam file.
 
 Installation:
-git clone https://github.com/sharan-j/GenCountTable
+git clone https://github.com/sharan-j/GenCountTable.git
 
 Pre-requisites:
   
