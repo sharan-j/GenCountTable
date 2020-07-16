@@ -28,7 +28,7 @@ Input:
 Running the code:
 On the terminal, run the following command
 
-Rscript GenCountTableFromBAM_sub.R /path/to/refernce.txt /path/to/bamfile /path/to/output.txt
+Rscript GenCountTableFromBAM_sub.R /path/to/reference.txt /path/to/bamfile /path/to/output.txt
 
 Output:
 A tab-seperated count table giving the total read count and percentage of substitutions for each position in the target sequence. For example, 
