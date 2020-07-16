@@ -7,8 +7,9 @@ Installation:
 git clone https://github.com/sharan-j/GenCountTable
 
 Pre-requisites:
-R version 3.5.2 or higher.
-OS: Linux, Mac
+  
+  R version 3.5.2 or higher.
+  OS: Linux, Mac
 
 Pre-processing:
 The starting point of this code is a bam file. 
