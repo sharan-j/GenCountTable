@@ -20,7 +20,11 @@ Usage:
 Input:
 1. Tab-seperated reference file containg the name of the guide, and the guide sequence. For example,
   
+  ```
+  
   CTRL_DOCK3NO2  TAAGACTGAACAAGAATGGT
+  
+  ```
 
 2. bam file
   
@@ -28,14 +32,17 @@ Input:
 Running the code:
 On the terminal, run the following command
 
+```
 Rscript GenCountTableFromBAM_sub.R /path/to/reference.txt /path/to/bamfile /path/to/output.txt
+```
 
 Output:
 A tab-seperated count table giving the total read count and percentage of substitutions for each position in the target sequence. For example, 
   
+  ```
   ID	seq	allCounts	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
   
   CTRL_DOCK3NO2	TAAGACTGAACAAGAATGGT	11722	0	0	0.001	0	0.523	0	0	0	0.001	0.001	0	0.001	0	0	0	0	0	0	0	0
 
-
+  ```
 
