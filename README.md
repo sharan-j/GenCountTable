@@ -31,7 +31,7 @@ Running the code:
 On the terminal, run the following command
 
 ```
-Rscript GenCountTableFromBAM_sub.R /path/to/reference.txt /path/to/bamfile /path/to/output.txt
+Rscript GenCountTableFromBAM_sub.R /path/to/reference.txt /path/to/bamfile.bam
 ```
 
 Output:
