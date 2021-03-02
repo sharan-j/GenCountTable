@@ -20,7 +20,7 @@ outfile = file_path_sans_ext(args[2])
 myBam = as.data.frame(myBam)
 colnames(myBam) = c("rname", "cigar", "seq", "qual", "MD")
 head(myBam)
-myBam$seq = substr(myBam$seq,7,26) # Trim to 20 bp protospacer
+myBam$seq = substr(myBam$seq,7,26) # Trim to 20 bp protospacer if required
 #myBam = myBam[!grepl("\\d", myBam$qual),]
 #myBam = myBam[!grepl("[:punct:]", myBam$qual),]
 myBam = myBam[!grepl("(G|C|T)", myBam$MD),]
