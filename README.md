@@ -13,7 +13,7 @@ Pre-requisites:
 
 Pre-processing:
 The starting point of this code is a bam file. 
-In order to generate a bam file, the sequenced fastq.gz file from a next-generation sequencing run is first trimmed with a suitable trimming tool, e.g. Cutadapt (version 2.2), upto the target site by trimming the Illumina adapters and scaffold sequence. The trimmed reads, e.g. 20 bases corresposnding to the length of the target site, are then mapped with an aligner, e.g. bowtie2 (version 2.3.5.1), to the reference. Bowtie2 is run with --no-unal or default parameters to generate a sam file. The sam file can be converted to a bam file using Samtools (version 1.9).
+In order to generate a bam file, the sequenced fastq.gz file from a next-generation sequencing run is first trimmed with a suitable trimming tool, e.g. Cutadapt (version 2.2), upto the target site by trimming the Illumina adapters and scaffold sequence. The trimmed reads, e.g. 20 bases corresposnding to the length of the target site, are then mapped with a suitable aligner to the reference to generate an alignment (BAM) file. 
 
 Usage:
 
